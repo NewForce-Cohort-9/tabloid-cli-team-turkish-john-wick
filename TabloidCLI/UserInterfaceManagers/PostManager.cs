@@ -45,7 +45,7 @@ namespace TabloidCLI.UserInterfaceManagers
                         //View();
                         return this;
                     case "2":
-                        //ViewBlogPosts();
+                        //ViewPost();
                         return this;
                     case "3":
                         Add();
