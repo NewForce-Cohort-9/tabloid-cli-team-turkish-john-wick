@@ -125,7 +125,7 @@ namespace TabloidCLI.UserInterfaceManagers
             {
                 int choice = int.Parse(input);
                 Tag tag = tags[choice - 1];
-                _authorRepository.DeleteTag(author.Id, tag.Id);
+                _authorRepository.DeleteTag(author.Id, tag.Id); 
             }
             catch (Exception ex)
             {
